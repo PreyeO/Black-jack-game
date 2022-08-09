@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(./image.jpg);
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+h1{
+  color: goldenrod;
+  padding-top: 3em;
+}
+p{
+  color: white;
+  font-size: 20px;
+}
+#message-el{
+  font-style: italic;
+}
+button{
+  background-color: goldenrod;
+  width: 13em;
+  padding: 0.5em;
+  color: #016f32;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 2px;
+}
+#new{
+margin-top: 1em;
+}
